@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test'
 
-test('Search test 1', async ({ page }) => {
+test('Search test ', async ({ page }) => {
   await page.goto('https://www.ecosia.org/')
   await page.getByPlaceholder('Search the web...').fill('prowly ai tools')
   await page.getByPlaceholder('Search the web...').press('Enter')
