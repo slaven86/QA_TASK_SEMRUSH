@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test'
 
-test('Search for "prowly ai tools" images by Type', async ({ page }) => {
+test('Search test ', async ({ page }) => {
   await page.goto('https://www.ecosia.org/')
   await page.getByPlaceholder('Search the web...').fill('prowly ai tools')
   await page.getByPlaceholder('Search the web...').press('Enter')
@@ -14,7 +14,7 @@ test('Search for "prowly ai tools" images by Type', async ({ page }) => {
 })
 
 
-test('test slaven dev', async ({ page }) => {
+test('Search test 2', async ({ page }) => {
   await page.goto('https://www.ecosia.org/')
   await page.getByPlaceholder('Search the web...').fill('prowly ai tools')
   await page.getByPlaceholder('Search the web...').press('Enter')
